@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slider Pokémon</title>
+
+    <link
+      rel="shortcut icon"
+      href="src/image/pokebola.png"
+      type="image/x-icon"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="src/css/reset.css" />
+
+    <link rel="stylesheet" href="src/css/estilos.css" />
+
+    <link rel="stylesheet" href="src/css/responsivo.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img src="src/image/pokebola.png" alt="pokébola" class="pokebola" />
+      <h1 class="titulo">Slider Pokémon</h1>
+    </header>
+
+    <main class="pokemon-slider">
+      <button class="btn-seta btn-voltar" id="btn-voltar">
+        <img src="src/image/seta.png" alt="seta voltar" />
+      </button>
+
+      <ul class="lista-pokemons">
+        <li class="cartao selecionado fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Pikachu</h2>
+            <p class="vida">HP 35</p>
+          </div>
+
+          <div class="container-imagem">
+            <img
+              src="src/image/pikachu.png"
+              alt="Pikachu"
+              class="imagem-pokemon"
+            />
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Pikachu é um Pokémon do tipo Elétrico introduzido na Geração 1. É
+              conhecido como o Pokémon Rato.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-2">
+          <div class="informacoes">
+            <h2 class="nome">Charizard</h2>
+            <p class="vida">HP 78</p>
+          </div>
+
+          <div class="container-imagem">
+            <img
+              src="src/image/charizard.png"
+              alt="Charizard"
+              class="imagem-pokemon"
+            />
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Charizard é um Pokémon do tipo Fogo / Voador introduzido na
+              Geração 1. É conhecido como o Pokémon Chama. Charizard tem duas
+              Mega Evoluções, disponíveis a partir de X e Y.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-3">
+          <div class="informacoes">
+            <h2 class="nome">Mewtwo</h2>
+            <p class="vida">HP 106</p>
+          </div>
+
+          <div class="container-imagem">
+            <img
+              src="src/image/mewtwo.png"
+              alt="Mewtwo"
+              class="imagem-pokemon"
+            />
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Mewtwo é um Pokémon do tipo Psíquico introduzido na Geração 1. É
+              conhecido como o Pokémon Genético. Mewtwo tem duas Mega Evoluções,
+              disponíveis a partir de X e Y. Eles podem ser ativados em batalha
+              ao segurar as Mega Stones, Mewtwonite X e Mewtwonite Y,
+              respectivamente.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-4">
+          <div class="informacoes">
+            <h2 class="nome">Gengar</h2>
+            <p class="vida">HP 60</p>
+          </div>
+
+          <div class="container-imagem">
+            <img
+              src="src/image/gengar.png"
+              alt="Gengar"
+              class="imagem-pokemon"
+            />
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Gengar é um Pokémon do tipo Fantasma / Veneno introduzido na
+              Geração 1. É conhecido como o Pokémon das Sombras. Gengar tem uma
+              Mega Evolução, disponível a partir de X e Y.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-5">
+          <div class="informacoes">
+            <h2 class="nome">Blastoise</h2>
+            <p class="vida">HP 79</p>
+          </div>
+
+          <div class="container-imagem">
+            <img
+              src="src/image/blastoise .png"
+              alt="Blastoise"
+              class="imagem-pokemon"
+            />
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Blastoise é um Pokémon do tipo Água introduzido na Geração 1. É
+              conhecido como o Pokémon Marisco. Blastoise tem uma Mega Evolução,
+              disponível a partir de X e Y.
+            </p>
+          </div>
+        </li>
+      </ul>
+
+      <button class="btn-seta" id="btn-avancar">
+        <img src="src/image/seta.png" alt="seta avançar" />
+      </button>
+    </main>
+
+    <script src="src/js/index.js"></script>
+  </body>
+</html>
